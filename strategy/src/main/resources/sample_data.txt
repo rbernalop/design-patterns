@@ -1,0 +1,5 @@
+1;Alice;28;Single
+2;Bob;34;Married
+3;Charlie;22;Single
+4;Diana;19;Divorced
+5;Edward;45;Widowed
