@@ -31,9 +31,9 @@ public class UserCreator {
 
         try {
             int id = (int) Double.parseDouble(userData[0]);
-            String name = userData[1];
+            String name = userData[1].trim();
             int age = (int) Double.parseDouble(userData[2]);
-            String relationshipStatus = userData[3];
+            String relationshipStatus = userData[3].trim();
 
             User user = new User();
             user.setId(id);
